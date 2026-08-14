@@ -169,6 +169,8 @@
   .check-item svg{flex-shrink:0;}
   .check-item span{font-size:15px;font-weight:500;}
   .check-item small{display:block;color:var(--muted);font-weight:400;font-size:13px;margin-top:2px;}
+  .video-card{max-width:280px;margin:0 auto;border-radius:20px;overflow:hidden;box-shadow:var(--shadow-lg);border:1px solid rgba(31,41,51,0.08);}
+  .video-card video{width:100%;display:block;}
 
   .print-guide{display:flex;flex-direction:column;gap:14px;margin-top:26px;}
   .print-step{
@@ -452,6 +454,18 @@
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="12" fill="#1E9E5A"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         <span>Licença de impressão ilimitada <small>Imprima quantas vezes quiser, pra família ou pra turma toda</small></span>
       </div>
+    </div>
+  </div>
+</section>
+<!-- VÍDEO: MATERIAL POR DENTRO -->
+<section class="video-section">
+  <div class="container">
+    <h2 class="section-title">Não é ilustração — é o material de verdade</h2>
+    <p class="section-sub">Vídeo gravado direto do celular, passando pelas cartas e pelo bônus</p>
+    <div class="video-card">
+      <video controls playsinline preload="metadata" poster="assets/preview-material-poster.jpg" style="width:100%;display:block;">
+        <source src="assets/preview-material.mp4" type="video/mp4">
+      </video>
     </div>
   </div>
 </section>
